@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import plotly.graph_objects as go  # ✅ FIXED - Add this import
+import plotly.graph_objects as go  
 
 # Config
 st.set_page_config(page_title="🚦 Hyderabad Traffic Predictor", layout="wide", page_icon="🚦")
@@ -61,7 +61,7 @@ traffic_data = {
 }
 df_map = pd.DataFrame(traffic_data)
 
-# ✅ PERFECT INTERACTIVE MAP
+#  PERFECT INTERACTIVE MAP
 fig = px.scatter_mapbox(
     df_map,
     lat='lat',
@@ -80,7 +80,7 @@ fig = px.scatter_mapbox(
 # FIXED: Use dict instead of go.layout.mapbox.Center
 fig.update_layout(
     mapbox=dict(
-        center=dict(lat=17.3850, lon=78.4867),  # ✅ FIXED - No 'go' needed
+        center=dict(lat=17.3850, lon=78.4867),  
         style="open-street-map",
         zoom=11
     ),
