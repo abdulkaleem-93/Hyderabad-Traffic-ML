@@ -17,7 +17,8 @@
 | **Clusters** | **3 traffic patterns** |
 
 ## 🚀 Live Demo
-pip install -r requirements.txt in local terminal
+
+**locally install:** `pip install -r requirements.txt`
 **Run locally:** `streamlit run app.py`
 
 **Test:** 6 PM HitecCity + Rain → **🔴 Heavy Jam Prediction**
