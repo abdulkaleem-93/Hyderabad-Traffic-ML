@@ -1,0 +1,15 @@
+feature,importance
+speed_ratio,0.48427078
+is_rush_hour,0.12634501
+volume_per_speed,0.09061898
+volume_3h_avg,0.07875739
+heavy_rain,0.041446827
+hour,0.03829734
+is_weekend,0.019075325
+metro_nearby,0.018923635
+location_encoded,0.018496454
+hot_weather,0.01803444
+month,0.017892787
+day_of_week,0.017723775
+accidents_count,0.017027603
+rush_rain_interaction,0.013089671
