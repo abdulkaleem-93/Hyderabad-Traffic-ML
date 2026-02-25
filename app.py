@@ -118,4 +118,4 @@ st.markdown("""
 ✅ Live predictions | ✅ Interactive Hyderabad map  
 ✅ Production deployment ready
 """)
-st.caption("**Hyderabad ML Engineer | XGBoost + Streamlit + Plotly | Feb 2026** 🚀")
+st.caption("**Abdul Kaleem - Data Aalyst | XGBoost + Streamlit + Plotly | Feb 2026** 🚀")
